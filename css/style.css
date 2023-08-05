@@ -87,6 +87,7 @@
  * =================================================================== */
 
  .section-image {
+    /* Wilson Library */
  	background: #151515 url(https://d13b2ieg84qqce.cloudfront.net/af8e5289916e3e4d650a316ccb2c3980c2f4e37c.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -252,6 +253,7 @@ section {
 }
 
 #skills {
+    /* Golden Ratio */
     background: black url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg) no-repeat center center;
     height: auto;
     
@@ -394,8 +396,9 @@ footer p {
     }
 
     #skills {
-        /* Use 5120 x 1440 images */
+        /* Use 5120 x 1440 images 
         background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+        */
         background-position: top center;
     }
 }

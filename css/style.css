@@ -252,8 +252,9 @@ section {
 }
 
 #skills {
-    background: #151515 url() no-repeat center center;
+    background: black url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg) no-repeat center center;
     height: auto;
+    
 }
 
 .section-resume {
@@ -271,7 +272,6 @@ footer {
     background-color: black;
     color: #fff;
     padding: 50px 0;
-
 }
 
 footer p {
@@ -394,9 +394,9 @@ footer p {
     }
 
     #skills {
+        /* Use 5120 x 1440 images */
         background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
         background-position: top center;
-
     }
 }
 

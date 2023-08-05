@@ -43,6 +43,10 @@
     font-weight: 600;
  }
 
+ .bl-adj{
+    color: black;
+ }
+
  a {
     cursor: pointer;
     color: #62C6F2;
@@ -130,7 +134,7 @@
     text-transform: uppercase;
     letter-spacing: .3rem;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-    align-items: center;
+    text-align: center;
 }
 
 .section-image span {
@@ -208,7 +212,7 @@ section {
 }
 
 .section-primary p {
-    text-align: justify;
+    text-align: center;
 }
 
 .section-primary {
@@ -250,6 +254,10 @@ section {
 #skills {
     background: #151515 url() no-repeat center center;
     height: auto;
+}
+
+.section-resume {
+    color: #111111 !important;
 }
 
 

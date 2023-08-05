@@ -130,6 +130,7 @@
     text-transform: uppercase;
     letter-spacing: .3rem;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    align-items: center;
 }
 
 .section-image span {
@@ -247,7 +248,7 @@ section {
 }
 
 #skills {
-    background: #151515 url(https://wallpaperaccess.com/full/1078160.jpg) no-repeat center center;
+    background: #151515 url() no-repeat center center;
     height: auto;
 }
 

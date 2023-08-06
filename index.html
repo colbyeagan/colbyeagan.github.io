@@ -26,7 +26,7 @@
     "stylesheet"><!-- Main Stylesheet -->
     <link href="css/style.css" rel="stylesheet"><!-- Timeline CSS -->
     <link href="css/timeline.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./css/nav_bar.css">
     <!-- Other repo code-->
     <!---->
     
@@ -35,9 +35,22 @@
 
 <body>
     <!-- INTRO SECTION -->
+    
+    <headerBar>
+      <a href="#" class="logo">Logo</a>
+      <ul>
+          <li> <a href="#home">Home</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#skills">Interests</a></li>
+          <li> <a href="#resume">Resume</a></li>
+          <!-- 
+          <li> <a href="#">Blog</a></li>
+          <li> <a href="#">Contact</a></li>
+          -->
+      </ul>
+    </headerBar>
 
-
-    <section class="section-image">
+    <section class="section-image" id="home">
         <div class="img-overlay"></div>
             <div class="intro">
                 <div class="row">
@@ -161,7 +174,7 @@
 
     <!-- TIMELINE SECTION -->
 
-    <sectionDiff class="section-resume" cz-shortcut-listen="true">
+    <sectionDiff class="section-resume" cz-shortcut-listen="true" id="resume">
   
         <!-- Page Container -->
         <div class="w3-content w3-margin-top" style="max-width:1400px;">

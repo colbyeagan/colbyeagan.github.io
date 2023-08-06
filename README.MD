@@ -1,5 +1,5 @@
 # My personal portfolio code
-# [demo](https://colbyeagan.github.io/personalPortfolio/) 
+# [demo](https://colbyeagan.github.io/personalPortfolio/){:target="_blank"}
 
 ## Feel Free to use
 

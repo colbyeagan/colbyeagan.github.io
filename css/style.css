@@ -110,6 +110,16 @@
     opacity: .7;
  }
 
+ .img-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .82;
+ }
+
  .intro {
     vertical-align: middle;
     text-align: center;
@@ -254,7 +264,7 @@ section {
 
 #skills {
     /* Golden Ratio */
-    background: black url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg) no-repeat center center;
+    background: url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg) no-repeat center center;
     height: auto;
     
 }

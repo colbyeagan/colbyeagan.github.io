@@ -1,5 +1,5 @@
 # My personal portfolio code
-# [Click for demo](https://colbyeagan.github.io/personalPortfolio/)
+# [Click for demo](https://colbyeagan.github.io)
 
 ## Feel Free to use
 

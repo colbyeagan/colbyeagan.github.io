@@ -36,12 +36,15 @@ a {
   text-decoration: none;
 }
 
+
+
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f4;
 }
 
 .header .logo {
+  color: black !important;
   display: block;
   float: left;
   font-size: 2em;

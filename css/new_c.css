@@ -535,3 +535,25 @@ header .social .btn {
         left: 0
     }
 }
+
+iframe {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    background-color: #000;
+}
+
+.section-projects {
+    background: #151515 url(https://e1.pxfuel.com/desktop-wallpaper/759/404/desktop-wallpaper-21-9-ultrawide-computer-hardware-and-network.jpg)no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: table
+}

@@ -48,7 +48,7 @@ a {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 1000px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {

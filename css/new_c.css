@@ -557,3 +557,7 @@ iframe {
     color: #fff;
     display: table
 }
+
+.projectPad {
+    padding: 10px;
+}

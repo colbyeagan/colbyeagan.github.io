@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">    
+    <link rel="stylesheet" href="./css/nav_bar.css">
+    <link rel="stylesheet" href="./css/new_c.css">
+
+    <title>Project 1</title>
+
+    </head>
+      <header class="header">
+        <a href="#" class="logo">CE</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Interests</a></li>
+          <li><a href="index.html#resume">Resume</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+
+      </header>
+      
+      <style>
+        body1 {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          background: linear-gradient(-45deg, #ff9a9e, #ece6ff, #fad0c4, #62c6f2);
+          background-size: 400% 400%;
+          animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+        .container {
+          background-color: #ffffff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          padding: 20px;
+          text-align: center;
+        }
+        h1 {
+          margin-top: 0;
+        }
+        iframe {
+          width: 100%;
+          max-width: 800px;
+          height: 450px;
+          border: none;
+        }
+        p {
+          margin-top: 10px;
+          color: #333;
+        }
+      </style>
+      <body1>
+        <div class="container">
+          <h1>Data Science Project</h1>
+          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+          <p>  For my undergraduate research under the mentorship of Dr. Freelon, I sought out to gather data on the 
+            influence of “airdrop seeders” within the Twitter crypto-space. An airdrop is a form of crypto advertisement
+             on Twitter where a tweet rewards users who reply to the tweet by mentioning other users. The reward comes in 
+             the form of the crypto token being advertised. “Airdrop seeders”, who are the users behind these advertisements,
+              often ask for other users to reply to the airdrop tweet by tagging three other users. Dr. Freelon observed this 
+              occurrence and was curious as to how much Twitter crypto spaces consisted of airdrops and what caused this 
+              phenomenon. This is the question my research attempted to answer. I collected one million tweets (between the
+               dates 02/01/2022 -> 01/31/2023) with the keywords “Smartchain”, “Nft”, “Airdrop”, or “Crypto”. I then iterated 
+               through all of these tweets to see which ones were the most popular based on retweet count. Out of the most 100
+                popular users I scraped 1000 replies to each user. The replies were from the time of their tweet in the dataset
+                 of one million tweets. For each user's replies, I checked for the amount of replies which contained three mentions 
+                 or more and no other text. While at this step of my research, I manually checked all the parent tweets of 
+                 which were popular by retweet count and contained three mention replies and found ones which were not airdrops. 
+                 The non airdrop tweets fit into several crypto or NFT categories. These categories were presale/listing 
+                 announcement, NFT competition, troubleshooting, partnership announcement, and public relations/ads. After 
+                 doing this manual check, it was evident that most of my popular users were in fact airdrops. I then gathered 
+                 30 of the most popular users that had made an airdrop in my data and scraped up to 1000 replies which mentioned 
+                 any of these users for each day over the timeframe of the data I have (02/01/22 -> 01/31/23). I then turned this 
+                 data into a longitudinal line plot upon which I could adjust the lines to depict volume of different numbers of 
+                 mentions. On the aforementioned line plot, each day analyzes up to 1,000 replies. Therefore, the entire plot 
+                 summarizes ~365k tweets across time (if all possible numbers of mentions volumes are depicted). I then utilized 
+                 these plots to analyze how the fluctuations of airdrop activity (3-mention replies) correlate with other events 
+                 in the crypto world.  
+          </p>
+        </div>
+      </body1>
+    </html>

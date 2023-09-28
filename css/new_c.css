@@ -561,3 +561,8 @@ iframe {
 .projectPad {
     padding: 10px;
 }
+
+.foot-logos {
+    font-size: 25px;
+    margin-right: 5px;
+}

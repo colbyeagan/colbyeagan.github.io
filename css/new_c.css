@@ -60,7 +60,7 @@ hr {
 }
 
 .section-image {
-    background: #151515 url(https://d13b2ieg84qqce.cloudfront.net/af8e5289916e3e4d650a316ccb2c3980c2f4e37c.jpg)no-repeat center center;
+    background: #151515 url(https://d13b2ieg84qqce.cloudfront.net/af8e5289916e3e4d650a316ccb2c3980c2f4e37c.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -217,7 +217,7 @@ section {
 }
 
 #skills {
-    background: url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg)no-repeat center center;
+    background: url(https://w.wallhaven.cc/full/57/wallhaven-57pkd1.jpg) no-repeat center center;
     height: auto
 }
 
